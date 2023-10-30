@@ -1,0 +1,366 @@
+/* Reset default margin and padding for the header */
+header {
+    margin: 0;
+    padding: 0;
+}
+
+/* Dark theme for the header */
+.dark-header {
+    background-color: #190eb3; /* Dark background color */
+    color: #fff; /* Light text color */
+    padding: 20px;
+    text-align: center; /* Center-align content */
+}
+
+/* Style for the logo */
+.logo h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+/* Style for the user instructions */
+.instructions p {
+    font-size: 16px;
+}
+
+/* Style for the biometric capture area (you would use JavaScript to customize this part) */
+.biometric-capture {
+    background-color: #444; /* A slightly lighter background color */
+    border: 1px solid #666; /* Border around the capture area */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+}
+/* Reset default margin and padding for the entire page */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #111; /* Dark background color for the whole page */
+    color: #fff; /* Light text color */
+}
+
+/* Dark theme for the header */
+.dark-header {
+    background-color: #333; /* Dark background color for the header */
+    color: #fff; /* Light text color */
+    padding: 20px;
+    text-align: center; /* Center-align content */
+}
+
+/* Style for the main content area */
+.content {
+    background-color: #222; /* Slightly darker background color for the content area */
+    padding: 20px;
+}
+
+/* Style for headings */
+h1, h2 {
+    color: #24df2d; /* Light text color for headings */
+}
+
+/* Style for unordered lists */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Link styles */
+a {
+    color: #66cdaa; /* Accent color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+css
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+#container {
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}css
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #333;
+    color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+}
+
+.btn {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #333;
+}css
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label {
+    font-size: 16px;
+}
+
+input {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #333;
+}css
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    background-color: #c0392b; /* Dark red background for error message */
+    color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.error-message p {
+    margin: 10px 0;
+}css
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.security-info {
+    background-color: #27ae60; /* Dark green background for security info */
+    color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+i {
+    font-size: 24px;
+    margin-right: 10px;
+}css
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.testing-info {
+    background-color: #3498db; /* Dark blue background for testing info */
+    color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+p {
+    font-size: 16px;
+    margin: 0;
+}css
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #201c1c;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.deployment-info {
+    background-color: #e67e22; /* Dark orange background for deployment info */
+    color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+p {
+    font-size: 16px;
+    margin: 0;
+}
